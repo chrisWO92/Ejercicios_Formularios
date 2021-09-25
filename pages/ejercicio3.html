@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Ejercicio 5</title>
 </head>
+
 <body>
-    
+
+    <h2>Ejercicio Formulario 5</h2>
+
+    <p>Los ejercicios se pueden encontrar en el siguiente <a
+            href="https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html#formulario-5"
+            target="__blank">enlace</a></p>
+
+    <form action="#" method="POST" target="__blank">
+
+        <fieldset>
+
+            <legend>Completar</legend>
+
+            <label for="color">Elige un color</label>
+            <input type="color" id="colorID" name="color">
+            <br>
+            <label for="nombre">Nombres</label>
+            <input type="text" id="nombreID" name="nombre">            
+            <br>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellidoID" name="apellido">
+            <br>
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefonoID" name="telefono">
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="asignaturamatemmaticasID" name="asignatura" value="asignaturamatemmaticas">
+            <label for="asignaturamatemmaticas">Matemáticas</label>
+            <input type="checkbox" id="aisgnaturahistoriaID" name="asignatura" value="asignaturahistoria">
+            <label for="asignaturahistoria">Historia</label>
+            <input type="checkbox" id="asignaturageografia" name="asignatura" value="asignaturageografia">
+            <label for="asignaturageografia">Geografía</label>
+            <input type="checkbox" id="asignaturaglenguaID" name="asignatura" value="asignaturaglengua">
+            <label for="asignaturaglengua">Lengua</label>
+
+            <br><br>
+
+            <label for="fichero2">Elija un fichero</label>
+            <input type="file" id="ficheroID2" name="fichero2">
+
+            <br><br>
+
+            <textarea name="message" rows="6" cols="59">
+                Utilice este cuadro para escribir
+            </textarea>
+
+            <br><br>
+
+            <input type="radio" id="jpg" name="jpg" value="JPG">
+            <label for="jpg">JPG</label>
+            <input type="radio" id="png" name="PNG" value="PNG">
+            <label for="png">PNG</label>
+
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Completar</legend>
+
+            <br>
+            <label for="nombre">Nombres</label>
+            <input type="text" id="nombreID" name="nombre">            
+            <br>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellidoID" name="apellido">
+            <br>
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccionID" name="direccion">
+
+            <br>
+            <br>
+
+            <label for="fecha">Eliga la fecha</label>
+            <input type="date" id="fechaID" name="fecha">
+
+            <br><br>
+
+            
+            <select name="puerto" id="puertoID" multiple="multiple">
+                <option value="USB">USB</option>
+                <option value="Paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select>
+            
+            <br>
+            <br>
+
+        </fieldset>
+
+
 </body>
+
 </html>
