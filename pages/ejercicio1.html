@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+
+    <form action="#" method="POST" target="__blank">
+
+        <fieldset>
+
+            <legend>Rellenar</legend>
+            <input type="radio" id="inglesID" name="ingles" value="Inglés">
+            <label for="inglesID">Inglés</label> <br>
+            <input type="radio" id="alemanID" name="aleman" value="Alemán">
+            <label for="alemanID">Alemán</label> <br>
+            <input type="radio" id="francesID" name="frances" value="Francés">
+            <label for="francesID">Francés</label> 
+            
+            <br>
+            <br>
+            
+            <select name="conector" id="conectorID">
+                <option value="USB">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="PS2">PS2</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="nombreID">Nombre</label>
+            <input type="text" id="nombreID" name="nombre">            
+            <br>
+            <label for="apellidoID">Apellido</label>
+            <input type="text" id="apellidoID" name="apellido">
+            
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Indique sus preferencias por favor</legend>
+            <select name="sexo" id="sexoID" multiple="multiple">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <br>
+            <input type="checkbox" name="sexohombrename" value="sexohombre">
+            <label for="sexohombrename">Hombre</label>
+            <br>
+            <input type="checkbox" name="sexomujername" value="sexohmujer">
+            <label for="sexomujername">Mujer</label>
+            <br>
+            <br>
+            <label for="fecha">Eliga la fecha</label>
+            <input type="date" id="fechaID" name="fecha">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
