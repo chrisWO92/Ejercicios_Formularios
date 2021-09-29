@@ -1,0 +1,71 @@
+
+
+/*
+
+Comenzando a maquetar en CSS :)
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    background-color: rgba(51, 45, 45, 0.816);
+    font-size: 100%;
+    width: 1000px;
+
+}
+
+h2 {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.container {
+    font-family: 'Yaldevi', sans-serif;
+    color: white;
+    background-color: black;
+    width: 1200px;
+}
+
+a {
+    color: wheat;
+}
+
+.menu {
+    list-style-type: none;
+    border-radius: 2px;
+    border-color: lawngreen;
+    font-size: 1.2rem;
+}
+
+li {
+    display: inline-block;
+}
+
+form {
+    width: ;
+    display: inline-block;
+}
+
+form fieldset legend {
+    font-style: inherit;
+    font-weight: bold;
+}
+
+.opcion_radio {
+    display: inline-block;
+}
+
+i {
+    font-size: 3rem;
+    color: white;
+    
+}
+
+header {
+    display: inline-block;
+}

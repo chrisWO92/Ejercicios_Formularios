@@ -5,72 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c4657e955b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@500&display=swap" rel="stylesheet">
     <title>Ejercicio 1</title>
 </head>
 
 <body>
 
-    <h2>Ejercicio Formulario 1</h2>
+    <div class="container">
+        <header>
+            <i class="fas fa-ad"></i>
+            <h2>Ejercicio Formulario 1</h2>
 
-    <p>Los ejercicios se pueden encontrar en el siguiente <a
-            href="https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html#formulario-1"
-            target="__blank">enlace</a></p>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html#formulario-1"
+                            target="__blank">Ejercicio_1</a></li>
+                </ul>
+            </nav>
 
-    <form action="#" method="POST" target="__blank">
+        </header>
 
-        <fieldset>
+        <main>
 
-            <legend>Rellenar</legend>
-            <input type="radio" id="inglesID" name="ingles" value="Inglés">
-            <label for="inglesID">Inglés</label> <br>
-            <input type="radio" id="alemanID" name="aleman" value="Alemán">
-            <label for="alemanID">Alemán</label> <br>
-            <input type="radio" id="francesID" name="frances" value="Francés">
-            <label for="francesID">Francés</label> 
-            
-            <br>
-            <br>
-            
-            <select name="conector" id="conectorID">
-                <option value="USB">USB</option>
-                <option value="paralelo">Paralelo</option>
-                <option value="PS2">PS2</option>
-            </select>
+            <form action="#" method="POST" target="__blank">
 
-            <br>
-            <br>
+                <fieldset>
 
-            <label for="nombreID">Nombre</label>
-            <input type="text" id="nombreID" name="nombre">            
-            <br>
-            <label for="apellidoID">Apellido</label>
-            <input type="text" id="apellidoID" name="apellido">
-            
+                    <legend>Rellenar</legend>
+                    <div class="opcion_radio">
+                        <input type="radio" id="inglesID" name="ingles" value="Inglés">
+                        <label for="inglesID">Inglés</label>
+                    </div>
+                    <div class="opcion_radio">
+                        <input type="radio" id="alemanID" name="aleman" value="Alemán">
+                        <label for="alemanID">Alemán</label>
+                    </div>
+                    <div class="opcion_radio">
+                        <input type="radio" id="francesID" name="frances" value="Francés">
+                        <label for="francesID">Francés</label>
+                    </div>
 
-        </fieldset>
+                    <select name="conector" id="conectorID">
+                        <option value="USB">USB</option>
+                        <option value="paralelo">Paralelo</option>
+                        <option value="PS2">PS2</option>
+                    </select>
 
-        <fieldset>
+                    <div class="input_text">
+                        <label for="nombreID">Nombre</label>
+                        <input type="text" id="nombreID" name="nombre">
+                    </div>
+                    <div class="input_text">
+                        <label for="apellidoID">Apellido</label>
+                        <input type="text" id="apellidoID" name="apellido">
+                    </div>
 
-            <legend>Indique sus preferencias por favor</legend>
-            <select name="sexo" id="sexoID" multiple="multiple">
-                <option value="hombre">Hombre</option>
-                <option value="mujer">Mujer</option>
-            </select>
-            <br>
-            <input type="checkbox" name="sexohombrename" value="sexohombre">
-            <label for="sexohombrename">Hombre</label>
-            <br>
-            <input type="checkbox" name="sexomujername" value="sexohmujer">
-            <label for="sexomujername">Mujer</label>
-            <br>
-            <br>
-            <label for="fecha">Eliga la fecha</label>
-            <input type="date" id="fechaID" name="fecha">
 
-        </fieldset>
+                </fieldset>
 
-    </form>
+                <fieldset>
+
+                    <legend>Indique sus preferencias por favor</legend>
+                    <select name="sexo" id="sexoID" multiple="multiple">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                    <div class="opcion_checkbox">
+                        <input type="checkbox" name="sexohombrename" value="sexohombre">
+                        <label for="sexohombrename">Hombre</label>
+                    </div>
+                    <div class="opcion_checkbox">
+                        <input type="checkbox" name="sexomujername" value="sexohmujer">
+                        <label for="sexomujername">Mujer</label>
+                    </div>
+                    <div class="opcion_checkbox">
+                        <label for="fecha">Eliga la fecha</label>
+                        <input type="date" id="fechaID" name="fecha">
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </main>
+        <footer>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html#formulario-1"
+                        target="__blank">Ejercicio_1</a></li>
+            </ul>
+        </footer>
+
+    </div>
 
 </body>
 
